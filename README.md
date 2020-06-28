@@ -1,5 +1,5 @@
 # Real number in Coq
-I Composed real number defined as following in Coq.
+I composed real number defined as following in Coq.
 ```
 Record Real : Type := mkReal
 {
@@ -30,7 +30,7 @@ completeness : forall (E : R -> Prop), (exists (m : R), forall (x : R), E x -> (
 }.
 ```
 # Axiom I use
-I import these libraly. I don't use axioms for anything other than what is included in these.
+I import these libraly. I do not use axioms for anything other than what is included in these.
 - Require Import Coq.Sets.Ensembles.
 - Require Import Coq.Logic.Classical.
 - Require Import Coq.Logic.Description.
