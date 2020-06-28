@@ -1,7 +1,7 @@
 # Real number in Coq
 I Compose real number in Coq.
 # Axiom I use
-- I import these libraly.
+I import these libraly.
 - Require Import Coq.Sets.Ensembles.
 - Require Import Coq.Logic.Classical.
 - Require Import Coq.Logic.Description.
